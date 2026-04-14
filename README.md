@@ -15,7 +15,7 @@ A diferencia de otros conectores, este script extrae métricas aditivas y **calc
 ### 3. Sincronización Eficiente (Upsert)
 Utiliza la lógica `ON DUPLICATE KEY UPDATE` para permitir re-ejecuciones de históricos sin duplicar datos, manteniendo el Data Warehouse siempre actualizado y consistente.
 
-## 🛠️ Stack Tecnológico
+##  Stack Tecnológico
 - **Lenguaje:** PHP 8.1+
 - **API:** Google Analytics Data API v1beta
 - **Base de Datos:** MySQL / MariaDB
