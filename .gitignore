@@ -1,0 +1,14 @@
+# No subir las llaves de Google (Archivo crítico de seguridad)
+*.json
+!composer.json
+
+# No subir las librerías pesadas de Composer
+vendor/
+
+# No subir la configuración real con tus claves
+config/config.php
+
+# Archivos de sistema y logs
+*.log
+.DS_Store
+.vscode/
